@@ -28,8 +28,6 @@ function send() {
     }
 }
 
-
-
 let result;
 let check;
 
