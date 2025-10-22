@@ -1,0 +1,31 @@
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ul.c {
+    list-style-image: url('../img/hse30.png');
+}
+
+ol.d {list-style-type: upper-roman;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: decimal;}

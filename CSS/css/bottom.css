@@ -1,7 +1,7 @@
 
 div.parent {
   position: relative;
-  height: 150px;
+  margin: 10px;
   border: 6px solid red;
 }
 
@@ -9,7 +9,7 @@ div.parent {
 div.absolute {
   position: absolute;
   width: 50%;
-  bottom: 10px;
+  bottom: 30px;
   border: 3px solid #8AC007;
 } 
 
@@ -18,12 +18,12 @@ div.absolute {
 div.relative {
   position: relative;
   width: 50%;
-  bottom: -40px;
+  bottom: -80px;
   border: 3px solid #8AC007;
 } 
 
 div.fixed {
   position: fixed;
   width: 50%;
-  bottom: 10px;
+  bottom: 20px;
   border: 3px solid #8AC007;
