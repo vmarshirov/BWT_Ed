@@ -1,0 +1,46 @@
+div.parent {
+  position: relative;
+  margin: 10px;
+  border: 6px solid red;
+}
+
+
+table{
+  width: 70%;
+  /* width: auto; */
+  height: 30.0rem;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse:separate;
+  padding: 10px;
+  border-spacing: 15px;
+}
+
+td{
+  width: 70%;
+  height: 1.0rem;
+  text-align: center;
+  border-bottom: 10px solid #ddd;
+}
+
+/* tr:hover {background-color: coral;} */
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+div.tablecontainer {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
